@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: "Lato";
+    border: 20px solid #BDC3C7;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+h2{
+    color: #3D3D3D;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 3.2px;
+    padding-left: 16px; 
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+
+h2:hover {
+    letter-spacing: 20px;
+}
+
+p{
+    text-align: right;
+}
+
+.dateLine {
+    width: 99%;
+    color: #3498db;
+}
+
+.paraOne {
+    width: 98%;
+    border-bottom: 5px solid #BDC3C7 ;
+    margin: auto;
+    padding-bottom: 16px;
+}
+
+.paraTwo {
+    width: 98%;
+    border-bottom: 5px solid #BDC3C7;
+    text-align: center;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.paraThree {
+    width: 98%;
+    border-bottom: 10px solid #BDC3C7;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+.paraFour {
+    width: 98%;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
